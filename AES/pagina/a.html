@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Mockup Calendario</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 min-h-screen flex flex-col">
+  
+  <!-- Header -->
+  <header class="bg-blue-600 text-white flex justify-between items-center px-6 py-4 shadow-md">
+    <h1 class="text-2xl font-bold">FocusUp - Calendario</h1>
+    <button class="bg-red-500 px-4 py-2 rounded-lg hover:bg-red-600">Cerrar sesion</button>
+  </header>
+
+  <!-- Calendario -->
+  <main class="flex-1 p-6">
+    <div class="grid grid-cols-7 gap-4">
+      
+      <!-- Dia de ejemplo -->
+      <div class="bg-white rounded-lg shadow p-4 flex flex-col">
+        <h2 class="font-bold text-lg mb-2">Lunes</h2>
+        <ul class="space-y-2">
+          <li class="bg-blue-100 p-2 rounded">Tarea 1</li>
+          <li class="bg-green-100 p-2 rounded">Tarea 2</li>
+        </ul>
+      </div>
+
+      <div class="bg-white rounded-lg shadow p-4 flex flex-col">
+        <h2 class="font-bold text-lg mb-2">Martes</h2>
+        <ul class="space-y-2">
+          <li class="bg-yellow-100 p-2 rounded">Tarea 2</li>
+        </ul>
+      </div>
+
+      <div class="bg-white rounded-lg shadow p-4 flex flex-col">
+        <h2 class="font-bold text-lg mb-2">Miercoles</h2>
+        <ul class="space-y-2">
+          <li class="bg-purple-100 p-2 rounded">Proyecto 1</li>
+        </ul>
+      </div>
+
+      <div class="bg-white rounded-lg shadow p-4 flex flex-col">
+        <h2 class="font-bold text-lg mb-2">Jueves</h2>
+      </div>
+
+      <div class="bg-white rounded-lg shadow p-4 flex flex-col">
+        <h2 class="font-bold text-lg mb-2">Viernes</h2>
+      </div>
+
+      <div class="bg-white rounded-lg shadow p-4 flex flex-col">
+        <h2 class="font-bold text-lg mb-2">Sabado</h2>
+      </div>
+
+      <div class="bg-white rounded-lg shadow p-4 flex flex-col">
+        <h2 class="font-bold text-lg mb-2">Domingo</h2>
+      </div>
+    </div>
+
+    <!-- Boton agregar tarea -->
+    <div class="mt-6 text-center">
+      <button class="bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 shadow">
+        + Agregar tarea
+      </button>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="bg-gray-200 text-center py-4 text-sm text-gray-600">
+    © 2025 FocusUp - Mockup
+  </footer>
+</body>
+</html>
